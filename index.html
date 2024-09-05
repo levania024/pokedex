@@ -39,8 +39,23 @@
   </header>
 
   <!-- SECTION -->
-  <main>
-    
+  <main class="bg-black min-vh-100 d-flex flex-column">
+    <div class="container flex-grow-1">
+      <section class="row h-100">
+        <!-- NOTE this is the wildpokemon list -->
+        <div id="pokemon-list" class="col-3 card border border-danger bg-black m-3 py-2">
+          <div class="my-1">
+
+          </div>
+        </div>
+        <!-- NOTE this is the full detail of the pokemon-->
+        <div class="col-6 d-flex flex-column card border border-danger bg-black m-3 p-3">
+          <div id="pokemon-details"></div>
+        </div>
+        <!-- NOTE this is the sandbox pokemon list -->
+        <div id="caught-pokemon" class="col-3 card border border-danger bg-black m-3 p-3"></div>
+      </section>
+    </div>
   </main>
 
   <!-- SECTION -->
